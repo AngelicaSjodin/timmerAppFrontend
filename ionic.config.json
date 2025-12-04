@@ -1,0 +1,7 @@
+{
+  "name": "timmerApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
