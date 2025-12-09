@@ -11,13 +11,15 @@ export class UserService {
 
   constructor(private http: HttpClient) { }
 
-  //hämta alla användare
+  //hämta användare
   getUsers(): Observable<any> {
     return this.http.get(this.API_URL);
   }
 
-  //lägga tilll en användare
+  //lägga till användare 
   addUser(user: any): Observable<any> {
     return this.http.post(this.API_URL, user);
   }
+
+  //(delete användare?, )
 }
