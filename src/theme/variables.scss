@@ -1,2 +1,15 @@
-// For information on how to create your own theme, please refer to:
-// https://ionicframework.com/docs/theming/
+//mina globala variabler, coolt färg tema
+:root {
+  --ion-color-primary:    #ffffff;
+  --ion-color-primary:    #000000;
+  --ion-color-secondary:  #f36533;
+  
+  
+
+  --ion-font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --ion-toolbar-background: var(--ion-color-primary);
+  --ion-toolbar-color: #fff;
+
+  //mellanrum
+  --ion-safe-area-top: 20px;
+}
