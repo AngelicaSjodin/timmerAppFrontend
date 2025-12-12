@@ -1,0 +1,20 @@
+.square{
+    text-align: center;
+
+    width: 60%;
+    max-width: 400px;
+
+    margin: 0 auto;
+
+    padding: clamp(1rem, 5%,5rem);
+
+    background-color: #F36533;
+
+    border-radius: 1rem;
+}
+
+
+
+h1{      //min värde, preffered värde och max värde så det anpassar skärmen bättre
+    font-size: clamp(1.8rem, calc(5vw + 1rem), 4rem); //calc hjhälper ändra textens storlek när också folk zoomar in
+}
