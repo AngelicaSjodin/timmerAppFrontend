@@ -17,4 +17,4 @@
 
 h1{      //min värde, preffered värde och max värde så det anpassar skärmen bättre
     font-size: clamp(1.8rem, calc(5vw + 1rem), 4rem); //calc hjhälper ändra textens storlek när också folk zoomar in
-}
+}//zoom funkar dock inte??
