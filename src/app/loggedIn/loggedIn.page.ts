@@ -15,4 +15,8 @@ export class LoggedInPage {
     logout(){
         this.router.navigate(['/login']);
     }
+
+    search(){
+        this.router.navigate(['/login']);
+    }
 }

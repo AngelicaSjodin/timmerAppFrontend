@@ -1,7 +1,13 @@
 <ion-content>
-    <div class="square">
+    <div class="searchDiv">
+        <ion-input placeholder="stad..."></ion-input>
+        <ion-button (click)="search()" class="searchButton">sök</ion-button>
+
+    </div>
+
+    <div class="wrapper">
         
-        <ion-button (click)="logout()">logga ut</ion-button>
+        <ion-button (click)="logout()" class="logout">logga ut</ion-button>
 
     </div>
 </ion-content>
