@@ -17,6 +17,6 @@ export class LoggedInPage {
     }
 
     search(){
-        this.router.navigate(['/login']);
+        
     }
 }
