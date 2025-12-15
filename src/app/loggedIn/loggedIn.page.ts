@@ -12,7 +12,7 @@ import {IonicModule} from '@ionic/angular';
 export class LoggedInPage {
     constructor(private router: Router) {}
 
-    loggedIn(){
-        this.router.navigate(['/loggedIn']);
+    logout(){
+        this.router.navigate(['/login']);
     }
 }
