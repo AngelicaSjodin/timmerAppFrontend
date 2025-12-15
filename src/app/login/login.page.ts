@@ -15,4 +15,8 @@ export class LoginPage {
     login(){
         this.router.navigate(['/home']);
     }
+
+    create(){
+        this.router.navigate(['/createAccount']);
+    }
 }
