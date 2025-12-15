@@ -7,8 +7,12 @@
             [(ngModel)]="name">
         </ion-input>
 
-        <ion-input placeholder="lösenord" type="password"></ion-input>
-        <ion-input placeholder="upprepa lösenord" type="password"></ion-input>
+        <ion-input 
+            placeholder="lösenord" 
+            type="password"
+            [(ngModel)]="password">
+        </ion-input>
+        <!--uprepa lösen måste fix-->
 
         <ion-button expand="block" (click)="createAccount()">skapa</ion-button>
     </div>
