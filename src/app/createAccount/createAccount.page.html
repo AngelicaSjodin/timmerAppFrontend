@@ -3,13 +3,15 @@
         <h1>skapa nytt konto</h1>
 
         <ion-input 
-            placeholder="användar namn"
+            label="Användarnamn"
+            labelPlacement="stacked"
             [(ngModel)]="name">
         </ion-input>
 
         <ion-input 
-            placeholder="lösenord" 
+            label="lösenord" 
             type="password"
+            labelPlacement="stacked"
             [(ngModel)]="password">
         </ion-input>
         <!--uprepa lösen måste fix-->
