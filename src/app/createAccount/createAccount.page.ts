@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { FormsModule } from "@angular/forms";
 import { Router } from "@angular/router";
 import {IonicModule} from '@ionic/angular';
 
@@ -7,9 +8,13 @@ import {IonicModule} from '@ionic/angular';
     selector: 'app-createAccount',
     templateUrl: './createAccount.page.html',
     styleUrls: ['./createAccount.page.scss'],
-    imports: [IonicModule]
+    imports: [IonicModule,FormsModule]
 })
 export class CreateAccountPage {
+
+    name: string ="";
+    password: string ="";
+
     constructor(private router: Router) {}
 
     createAccount(){
