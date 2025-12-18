@@ -14,8 +14,23 @@
     border-radius: 1rem;
 }
 
+.button{
+    --background: var(--ion-color-primary);
 
+    display: block;
+    width: 100%;
+    
+    color: black;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 h1{      //min värde, preffered värde och max värde så det anpassar skärmen bättre
-    font-size: clamp(1.8rem, calc(5vw + 1rem), 4rem); //calc hjhälper ändra textens storlek när också folk zoomar in
+    font-size: clamp(1.8rem, calc(5vw + 1rem), 3rem);//calc hjhälper ändra textens storlek när också folk zoomar in
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+
+    color: #ffffff;
+
+
 }//zoom funkar dock inte??
