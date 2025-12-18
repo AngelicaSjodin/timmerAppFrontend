@@ -37,4 +37,8 @@ export class CreateAccountPage {
             }
         });
     }
+
+    return(){
+        this.router.navigate(['/login']);
+    }
 }

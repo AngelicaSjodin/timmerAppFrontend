@@ -2,9 +2,9 @@
     <div class="square">
         <h1>Logga in</h1>
 
-        <ion-input placeholder="användar namn" [(ngModel)]="name"></ion-input>
+        <ion-input label="användarnanm" labelPlacement="stacked" [(ngModel)]="name"></ion-input>
 
-        <ion-input placeholder="lösenord" name="password" type="password" 
+        <ion-input label="lösenord" labelPlacement="stacked" name="password" type="password" 
         [(ngModel)]="password"></ion-input>
 
         <ion-button class="button" (click)="login()">Logga in</ion-button>
