@@ -4,6 +4,7 @@
 
 .wrapper {
   position: relative; 
+  height: 100vh;
 }
 
 .logout{
@@ -27,4 +28,10 @@
     color: rgb(255, 255, 255);
     font-weight: 700;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.map {
+    height: 100vh;
+    width: 100%;
+    margin-top: 20px;
 }
