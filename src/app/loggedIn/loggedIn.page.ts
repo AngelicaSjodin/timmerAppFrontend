@@ -57,7 +57,7 @@ export class LoggedInPage implements AfterViewInit {
         const coords = cities[cityName];
 
         if(!coords){
-            alert('Staden hittades inte. Försök med Stockholm, Göteborg eller Goteborg.');
+            alert('Staden hittades inte');
             return;
         } 
 
