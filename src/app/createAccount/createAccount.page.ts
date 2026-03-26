@@ -33,7 +33,7 @@ export class CreateAccountPage {
             },
             error: err => {
                 console.error(err);
-                alert('error, kunde inte skapa konto');
+                alert('namnet är upptaget, välj ett annat');
             }
         });
     }

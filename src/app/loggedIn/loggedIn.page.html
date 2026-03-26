@@ -1,14 +1,14 @@
 <ion-content>
+    
     <div class="searchDiv">
         <ion-input placeholder="stad..." [(ngModel)]="city"></ion-input>
-        <ion-button (click)="search()" class="Button">sök</ion-button>
-
-    </div>
-
-    <div class="wrapper">
         
-        <ion-button (click)="logout()" class="logout">logga ut</ion-button>
-        <div id="map" class="map"></div>
-
     </div>
+    
+    <div class="nav"> 
+        <ion-button (click)="search()" class="Button">sök</ion-button> 
+        <ion-button (click)="logout()" class="logout">logga ut</ion-button>
+        
+    </div>
+    <div id="map" class="map"></div>
 </ion-content>

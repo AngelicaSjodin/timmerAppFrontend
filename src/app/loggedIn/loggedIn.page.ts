@@ -51,6 +51,7 @@ export class LoggedInPage implements AfterViewInit {
             stockholm: [18.0686, 59.3293],
             göteborg: [11.9746, 57.7089],
             goteborg: [11.9746, 57.7089],
+            mitthus:[17.050, 63.150]
         };
 
         const coords = cities[cityName];
